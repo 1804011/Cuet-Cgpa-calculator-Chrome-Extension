@@ -1,0 +1,19 @@
+{
+    "name": "Cuet Cgpa Calculator",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This is a chrome extension to calculate your cgpa",
+    "action": {
+        "default_icon": "cuet.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://course.cuet.ac.bd/result_published.php"
+            ],
+            "js": [
+                "javascript.js"
+            ]
+        }
+    ]
+}
