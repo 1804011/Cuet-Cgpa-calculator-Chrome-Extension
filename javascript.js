@@ -1,7 +1,6 @@
 const selectButton = document.getElementsByTagName('select')[0];
 const table = document.getElementsByTagName('tbody')[0];
 
-alert("Please select 100 record per page to get correct result")
 const getResult = () => {
     let tableContent = table.innerHTML;
     const grades = {
