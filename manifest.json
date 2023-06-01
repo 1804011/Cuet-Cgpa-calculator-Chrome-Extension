@@ -15,5 +15,11 @@
                 "javascript.js"
             ]
         }
-    ]
+    ],
+    "icons": {
+        "16": "cuet.png",
+        "32": "cuet.png",
+        "48": "cuet.png",
+        "128": "cuet.png"
+      }
 }

@@ -27,7 +27,7 @@ const getResult = () => {
         const grade = parseFloat(grades[e.getElementsByTagName('td')[4]?.innerText]);
         if (!isNaN(credit)) { totalCredit += credit; }
         if (!isNaN(credit) && (!isNaN(grade))) { totalGrades += credit * grade; }
-        length++;
+
         console.log(credit, grade);
     }
     if (totalCredit === 0) return;
