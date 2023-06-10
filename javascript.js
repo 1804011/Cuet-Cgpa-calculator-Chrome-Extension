@@ -38,7 +38,7 @@ const getResult = () => {
         <td></td>
         <td></td>
         <th>Cgpa: </th>
-        <th>${totalGrades / totalCredit}</th>
+        <th>${(totalGrades / totalCredit).toFixed(4)}</th>
     </tr>`
 
 
